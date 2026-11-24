@@ -1,0 +1,1 @@
+{"description":"One kind, funny fortune for a houseplant, written for make.fun's Fortune in a Pot bounty.","license":"MIT","main":"main.ts","name":"fortune-pot-01","scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}
