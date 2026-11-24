@@ -20,7 +20,7 @@ function validate(text: string): void {
     throw new Error("entry must have no leading or trailing whitespace");
   }
   for (const ch of text) {
-    if (ch.charCodeAt(0) < 0x20 && ch !== "\t") {
+    if (ch.charCodeAt(0) < 0x20) {
       throw new Error("entry must not contain control characters");
     }
   }
